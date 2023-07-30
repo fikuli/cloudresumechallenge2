@@ -8,7 +8,7 @@ public class CounterController {
     private int hede;
 
     @GetMapping
-    public int hede() {
-        return hede++;
+    public String hede() {
+        return "hede: " + hede++;
     }
 }
